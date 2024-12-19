@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tomato;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#flexDiv {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 50px;
+}
+
+#inputDiv {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 75px;
+    border-radius: 50px;
+}
+
+#imgDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}

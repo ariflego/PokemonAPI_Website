@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pokemon Finder</h1>
+
+    <div id="flexDiv">
+        <div id="inputDiv">
+            <input type="text" id="pokemonName" placeholder="Enter a pokemon!">
+            <button id="searchBtn" onclick="fetchData()">Find Pokemon</button>
+        </div>
+        <div id="imgDiv">
+            <img id="pokemonImg" alt="Pokemon Image">
+            <p id="errorP"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
